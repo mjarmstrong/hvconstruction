@@ -1,3 +1,16 @@
+# HarbourView Construction — PREVIEW / DEMO
+#
+# This deployment is intentionally kept out of search results. Indexing is
+# blocked site-wide by <meta name="robots" content="noindex, nofollow"> in
+# every page <head> (driven by `indexable: false` in src/_data/site.js).
+#
+# Crawling is deliberately left ALLOWED below: a search engine has to be
+# able to fetch the pages to actually see and honour that noindex tag.
+#
+# AT LAUNCH: set `indexable: true` in src/_data/site.js and uncomment the
+# Sitemap line.
+
 User-agent: *
 Allow: /
-Sitemap: https://hvconstruction.ca/sitemap.xml
+
+# Sitemap: https://hvconstruction.ca/sitemap.xml
